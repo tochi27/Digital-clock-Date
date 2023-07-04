@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100svh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background: linear-gradient(to left, rgba(128, 0, 128, 0.4), rgba(255, 215, 0, 0.4)), url(./images/IMG_20201001_105806_220.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container2{
+    text-align: center;
+}
+
+span{
+    margin-top: 30rem;
+    color: black;
+    font-size: 5rem;
+}
